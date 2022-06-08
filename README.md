@@ -38,7 +38,7 @@
 
 ## Files
 * tables_mysql.sql
-* scenario.sql
+* game_scenario.sql
 
 ### tables_mysql.sql
 guild table과 player table을 생성하며, data를 삽입하는 insert문을 작성한 mysql script file 입니다. 아래는 guild table과 player table의 예시입니다.
@@ -80,7 +80,7 @@ CREATE TABLE player(
 );
 ```
 
-### scenarios_mysql.sql
+### game_scenario.sql
 guild table과 player table을 활용해 구현한 기능들을 작성한 mysql script file입니다. 아래는 구현한 기능들의 예시입니다.
 
 * 길드 생성
@@ -140,6 +140,6 @@ CALL signing_up_guild('신규플레이어01', '신규길드01');
 |신규플레이어01|1006|
 
 ## Contributors
-* 박재민
-* 윤홍찬
-* 유예지
+* [박재민](https://github.com/jacob3015)
+* [윤홍찬](https://github.com/Chani0324)
+* [유예지]
